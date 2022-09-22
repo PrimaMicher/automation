@@ -19,19 +19,17 @@ let ice = "ice";
 let price = 5;
 let coffeeType
 let americano = "Americano";
-let espresso = "espresso";
-let iceCoffee = "ice coffee";
+let espresso = "Espresso";
+let iceCoffee = "Ice Coffee";
 
-coffeeType=americano
-cupSize=largeCup
+coffeeType=espresso
+cupSize=mediumCup
 
 if (coffeeType == americano){
     ingredient=milk
 } else if(coffeeType==espresso){
     ingredient=water
-} else  if (coffeeType==iceCoffee){
-    ingredient=ice
-};
+}
 if (cupSize==mediumCup) {
     price *= 1.5
 } else if (cupSize==largeCup) {
