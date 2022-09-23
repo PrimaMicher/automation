@@ -219,3 +219,27 @@ console.log (sum1);*/
 //document.write(`the sum is ${sum}`);
 
 
+// =======break, continue
+
+// Директива break ==> повністю перестає виконувати цикл
+// continue ==> перериває поточну ітерацію циклу та
+// продовжує виконувати цикл з наступної ітерації
+
+//for (let i=0; i<=10; i++) {
+//    if (i == 7) break;
+//    console.log(i);
+//}
+
+// for (let i=0; i<=10; i++) {
+//    if (i % 2 == 0) continue;
+//     console.log(i);
+// }
+
+// Не можна використовувати break/continue справа від оператора "?" (тернарний оператор
+// ternary operator
+// syntax:
+// умова ? вираз1 : вираз2
+
+// let a = 7;
+// (a<5) ? console.log(a) : console.log('Hi');
+
