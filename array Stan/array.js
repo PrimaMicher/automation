@@ -154,31 +154,31 @@
 //           121
 //            1
 
-let row = 10;
-let str = '';
-
-for (let i = 1; i<=row; i++){
-    str += " ".repeat(row-i)
-    for ( let j=1; j<=i; j++){
-        str = str+j % 10;
-
-    }
-for (let k = i-1; k>=1; k--){
-    str += k % 10;
-}
-    str +='\n';
-}
-for (let i = row-1; i>=1; i--){
-    str += " ".repeat(row-i)
-    for ( let j=1; j<=i; j++){
-        str = str+j % 10;
-
-    }
-    for (let k = i-1; k>=1; k--){
-        str += k % 10;
-    }
-    str +='\n';
-}row
-console.log(str);
+// let row = 10;
+// let str = '';
+//
+// for (let i = 1; i<=row; i++){
+//     str += " ".repeat(row-i)
+//     for ( let j=1; j<=i; j++){
+//         str = str+j % 10;
+//
+//     }
+// for (let k = i-1; k>=1; k--){
+//     str += k % 10;
+// }
+//     str +='\n';
+// }
+// for (let i = row-1; i>=1; i--){
+//     str += " ".repeat(row-i)
+//     for ( let j=1; j<=i; j++){
+//         str = str+j % 10;
+//
+//     }
+//     for (let k = i-1; k>=1; k--){
+//         str += k % 10;
+//     }
+//     str +='\n';
+// }row
+// console.log(str);
 
 
