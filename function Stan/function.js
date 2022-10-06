@@ -87,22 +87,41 @@
 //
 // console.log(sum(10));
 
-// ====================== Argument===============================
+// ====================== Arguments===============================
 
-function  sum(){
-    let sum =0;
-    for (let i=0; i<arguments.length; i++){
-        sum += arguments[i];
-    }
-    return sum
-}
+// function  sum(){
+//     let sum =0;
+//     for (let i=0; i<arguments.length; i++){
+//         sum += arguments[i];
+//     }
+//     return sum
+// }
 
 //console.log(sum(10, 20, 30, 45, 56, 88));
 //або приклад з масивом
 
-let arr = [10, 20, 30, 40, 50, 60];
+// let arr = [10, 20, 30, 40, 50, 60];
         // оператерор spred (...arr) перетворює масив в послідовність чисел
 
-let result = sum (...arr);
-result += 1000;
-console.log(result);
+// let result = sum (...arr);
+// result += 1000;
+// console.log(result);
+
+//================Arrow Function===============================
+
+function sum (num1, num2){
+    return num1 +num2;
+}
+
+const newSum = (num1, num2) => num1 + num2;
+
+function getPow (num) {
+    return num ** 2;
+}
+
+const newGetPow = num => num ** 2;
+
+console.log(sum (10,20));
+console.log(sum(10, 20));
+console.log(getPow(10));
+console.log(newGetPow(10));
