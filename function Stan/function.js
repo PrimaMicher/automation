@@ -109,19 +109,55 @@
 
 //================Arrow Function===============================
 
+// function sum (num1, num2){
+//     return num1 +num2;
+// }
+//
+// const newSum = (num1, num2) => num1 + num2;
+//
+// function getPow (num) {
+//     return num ** 2;
+// }
+//
+// const newGetPow = num => num ** 2;
+//
+// console.log(sum (10,20));
+// console.log(sum(10, 20));
+// console.log(getPow(10));
+// console.log(newGetPow(10);
+//
+
+
+//======================== Callback========================
+
+// const  printMessage = function (param) {
+//     console.log (`You just entered ${param}`);
+// }
+// printMessage("Hello");
+// console.log (typeof printMessage);
+//
+// const newMessage = printMessage;
+// console.log (typeof newMessage);
+//
+// printMessage("mariana");
+// newMessage("Marianna");
+
+
+//============================================================
+
+// function sum (num1, num2){
+//     return num1 + num2;
+// }
+//
+// console.log (10,20);
+
+
 function sum (num1, num2){
-    return num1 +num2;
+    return function (){
+        return num1 + num2;
+    }
 }
+const newSum = sum (10,20)
+console.log (newSum());
 
-const newSum = (num1, num2) => num1 + num2;
 
-function getPow (num) {
-    return num ** 2;
-}
-
-const newGetPow = num => num ** 2;
-
-console.log(sum (10,20));
-console.log(sum(10, 20));
-console.log(getPow(10));
-console.log(newGetPow(10));
