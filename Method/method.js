@@ -42,16 +42,33 @@
 // push - додає елеминт(и) в кінець
 // pop - видаляє останній елемент (та повертає цей елемент!)
 
-const letters = ['a', 'b', 'c', 'd', 'e'];
+// const letters = ['a', 'b', 'c', 'd', 'e'];
 // console.log(letters);
 
-letters.push('F', 's', 1, 5);
-let c = letters.push('g')
+// letters.push('F', 's', 1, 5);
+// let c = letters.push('g')
 
 // console.log(letters);
 // console.log(c) // це виведе кількість елементів в масиві, з врахуванням запушиного останнього елементу
 
-letters.pop()
-let a = letters.pop
-console.log(letters)
-console.log(a) // показує який останній елемент був видалений
+// letters.pop()
+// let a = letters.pop();
+// console.log(letters);
+// console.log(a); // показує який останній елемент був видалений
+
+// unshift => добавляє елемент(и) на початок масиву
+// shift видаляє елемент з початку, посуваючи чергу так, що 2-й елемент стає першим
+// та повертає цей елемент
+
+// const bigLetters = ['A', 'B', 'C', 'D', 'E'];
+
+// bigLetters.unshift('S')
+// let b = bigLetters.unshift('X', 'Y');
+// console.log(bigLetters);
+// console.log(b) // рахує довжину масиву, включаючи останні додані елементи
+//
+// bigLetters.shift();
+// let d = bigLetters.shift()
+// console.log(bigLetters);
+// console.log(d);
+
