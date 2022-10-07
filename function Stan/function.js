@@ -152,12 +152,30 @@
 // console.log (10,20);
 
 
-function sum (num1, num2){
-    return function (){
-        return num1 + num2;
-    }
-}
-const newSum = sum (10,20)
-console.log (newSum());
+// function sum (num1, num2){
+//     return function (){
+//         return num1 + num2;
+//     }
+// }
+// const newSum = sum (10,20)
+// console.log (newSum());
 
+//============================================================
 
+// const calculator = function (num1,num2, callback) {
+//     return callback (num1,num2);
+// }
+//
+// console.log(calculator(1,5, "add"));
+//
+// const add = function (num1,num2) {
+//     return num1 + num2
+// }
+//
+// const sub = function (num1,num2) {
+//     return num1 + num2
+// }
+//
+// console.log(calculator(2,6, add))
+
+//============================================================
