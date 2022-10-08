@@ -72,3 +72,48 @@
 // console.log(bigLetters);
 // console.log(d);
 
+//====================== Об'єднання масивів=============================
+// конкатинація не використовується для об'єднання масивів
+
+// const letters = ['a', 'b', 'c', 'd', 'e'];
+// const bigLetters = ['A', 'B', 'C', 'D', 'E'];
+//
+// console.log(letters+bigLetters); // виведе склеяну строку, а не об'єднає масив!!!
+// console.log(String(letters)); //метод при якому масив конвертується в строку
+                              // так само і з числами (напр. буде не 7, а "7"
+
+
+//===== push()=========
+// let arr1 = [ 'a', 'b', 'c'];
+// let arr2 = [ 1, 2, 3];
+
+// arr1.push(arr2)
+// console.log(arr1); //запушить масив в інший масив, але як один елемент
+
+//==============push() + spread operator ...
+
+// arr1.push(...arr2); // (...arr2) ==> ('a', 'b', 'c')
+// console.log(arr1);
+
+// через третій масив
+
+// const arr3 =[...arr1,...arr2];
+// console.log(arr3);
+
+//=============spread operator(...)===========
+
+// const numbers = [4, 8, 89, 17, 565, 45]
+// console.log(numbers);      // виведе у вигляді масиву
+// console.log(...numbers);  // буде розгорнутим
+
+//console.log(Math.max(4, 8, 89, 17));
+
+// console.log(Math.max(...numbers));
+// console.log(Math.min(...numbers));
+
+// ********** ==; ===  *************** compare arrays
+
+const arr = [1, 2];
+const arr1 = [1,2];
+
+
