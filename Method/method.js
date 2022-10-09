@@ -112,8 +112,57 @@
 // console.log(Math.min(...numbers));
 
 // ********** ==; ===  *************** compare arrays
+// порівнює лише к-сть елементів в масиві
 
-const arr = [1, 2];
-const arr1 = [1,2];
+// const arr = [1, 3];
+// const arr1 = [1, 2];
+//
+// console.log(arr < arr1);
+// console.log (arr > arr1);
+// console.log(arr == arr1);
+// console.log(JSON.stringify(arr) == JSON.stringify(arr1)); //порівнює саме елементи в масиві
 
+//======================================
+// let arr = [1, 2, 3];
+// let emptyArr = [];
+//
+// console.log(String(arr), String(emptyArr));
+// console.log(Number(arr), Number(emptyArr));
+// console.log(Boolean(arr), Boolean(emptyArr));
 
+// ================= String Methods =============
+// === length
+
+// let text = 'ASDGKBMLFKGLF'
+// let length = text.length;
+// console.log(length);
+
+// ==== .slice()
+
+// let str = "Apple, Banana, Kiwi";
+// let part = str.slice(7,13) // виріже зі строки від 7 до 13(не вкл)
+// console.log(part)
+
+// === replace() заміняє частину строки
+// ===replaceAll робить заміну якщо символ чи слово зустрічається декілька разів
+
+// let txt = "Please visit Microsoft"
+// let newTxt = txt.replace("Microsoft", "Google")
+// console.log((newTxt))
+
+ // =====charAt() шукає елемент по індексу
+// let txt = "Hello";
+// let letter = txt.charAt(0);
+// console.log(letter)
+// console.log(txt[0]) // можна відразу шукати по індексу, не використовуючи метод
+
+// === repeat()
+
+// let a = "Hi!"
+// console.log(a.repeat(5));
+
+// ==== trim() видаляє спейси з країв
+
+// let txt = "        Hello!      "
+// let result = txt.trim();
+// console.log(result)
